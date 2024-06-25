@@ -1,7 +1,7 @@
 <div align="center">
   <!-- Logo -->
   <a href="https://github.com/celinenguyentu/Libft">
-  <img src="docs/libftm.png" alt="Logo" width="100" height="100">
+  <img src="docs/libftm.png" alt="Logo" width="150" height="150">
   </a>
 </div>
 
