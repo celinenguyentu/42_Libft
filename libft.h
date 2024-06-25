@@ -3,15 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cnguyen- <cnguyen->                        +#+  +:+       +#+        */
+/*   By: cnguyen- <cnguyen-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 09:50:24 by cnguyen-          #+#    #+#             */
-/*   Updated: 2024/04/05 03:42:18 by cnguyen-         ###   ########.fr       */
+/*   Updated: 2024/06/25 03:57:35 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
+# if defined(__APPLE__)
+#  define APPLE_OR_AARCH64
+# elif defined(__aarch64__)
+#  define APPLE_OR_AARCH64
+# endif
 
 # include <stdlib.h>
 # include <unistd.h>
