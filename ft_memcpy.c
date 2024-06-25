@@ -6,11 +6,7 @@
 /*   By: cnguyen- <cnguyen-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/25 15:52:30 by cnguyen-          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2024/06/16 18:02:09 by cnguyen-         ###   ########.fr       */
-=======
-/*   Updated: 2024/06/25 03:57:18 by cnguyen-         ###   ########.fr       */
->>>>>>> d43125c (Libft)
+/*   Updated: 2024/06/25 04:21:21 by cnguyen-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,13 +95,6 @@ void	test(size_t len)
 		ft_memcpy(nullptr, nullptr, len);
 		printf("Does nothing.\n");
 	}
-<<<<<<< HEAD
-	printf("Destination and source strings are both NULL\n"); // NO CRASH on ARM
-	memmove(nullptr, nullptr, len);
-	ft_memmove(nullptr, nullptr, len);
-	printf("Does nothing.\n");
-=======
->>>>>>> d43125c (Libft)
 }
 
 int	main(void)
