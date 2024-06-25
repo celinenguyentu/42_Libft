@@ -1,3 +1,10 @@
+<div align="center">
+  <!-- Logo -->
+  <a href="https://github.com/celinenguyentu/Libft">
+  <img src="docs/libftm.png" alt="Logo" width="100" height="100">
+  </a>
+</div>
+
 # Libft
 
 This project is about coding a C library. C programming can be very tedious when one doesn’t have access to the highly useful
