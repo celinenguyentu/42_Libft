@@ -1,2 +1,9 @@
 *code-workspace
-testers/*
+.gitignore
+a.out
+test
+moulitest
+libft-war-machine
+libftTester
+libft-unit-test
+libtest
