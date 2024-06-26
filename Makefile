@@ -60,21 +60,24 @@ OBJS_BONUS	=	$(SRCS_BONUS:.c=.o)
 # ---------------------------------- RULES ----------------------------------- #
 
 .c.o: 
-			${CC} ${CFLAGS} -c $< -o $@
+			@${CC} ${CFLAGS} -c $< -o $@
 
 all: 		$(NAME)
 
 $(NAME):	$(OJBS)
-			$(AR) $(NAME) $(OJBS)
+			@$(AR) $(NAME) $(OJBS)
+			@echo "Created library libft.a (mandatory version)."
 
 bonus:		$(OJBS) $(OBJS_BONUS)
-			$(AR) $(NAME) $(OJBS) $(OBJS_BONUS)
+			@$(AR) $(NAME) $(OJBS) $(OBJS_BONUS)
+			@echo "Created library libft.a (bonus version)."
 
 clean:
-			$(RM) $(OJBS) $(OBJS_BONUS)
+			@$(RM) $(OJBS) $(OBJS_BONUS)
 
 fclean:		clean
-			$(RM) $(NAME)
+			@$(RM) $(NAME)
+			@echo "Removed libft.a."
 
 re:			fclean all
 
