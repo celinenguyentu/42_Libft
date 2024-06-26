@@ -96,7 +96,7 @@ Alternatively, if your `main.c` file is located at the root of this repository :
 
 ## Testers
 
-I recommand you to code your own tests and compare your function to the existing libc function when you can. It is not only an important part of the learning process but also allows to properly imitate the behaviour of the libc that your system uses. Those are third-party tester to run complementary tests, use them at your own risk.
+I recommend you to code your own tests and compare your function to the existing libc function when you can. It is not only an important part of the learning process but also allows to properly imitate the behaviour of the libc that your system uses. Those are third-party tester to run complementary tests, use them at your own risk.
 
 * Tripouille [libftTester](https://github.com/Tripouille/libftTester)
 * alelievr [libft-unit-test](https://github.com/alelievr/libft-unit-test)
